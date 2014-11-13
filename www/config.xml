@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.gaming_platform.kamisado"
+        id          = "com.gaming_platform.LinesOfAction"
         versionCode = "7"
         version     = "1.0.0" >
 
-    <name>Kamisado</name>
+    <name>LinesOfAction</name>
 
     <description>
-        Kamisado, a two player turn based game
+        Lines Of Action, a two player turn based game
     </description>
 
-    <author href="https://github.com/rshen1993" email="rshen1993@gmail.com">
+    <author href="https://github.com/xuxiaoyu89" email="xuxiaoyu89@gmail.com">
         Rui Shen
     </author>
 
