@@ -50,7 +50,7 @@
     <access origin="*"/>
     <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0">
     <gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.9.0">
-        <param name="APP_ID" value="571155283016784" />
+        <param name="APP_ID" value="1507812532817680" />
         <param name="APP_NAME" value="LinesOfAction"/>
     </gap:plugin>
 
