@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.gaming_platform.LinesOfAction"
+        id          = "com.gaming_platform.weiqi"
         versionCode = "10"
         version     = "1.2.0" >
 
@@ -21,6 +21,7 @@
         permission on your app, which PhoneGap requires.
     -->
     <preference name="permissions"                value="none"/>
+
     <!-- Customize your app and platform with the preference element. -->
     <preference name="phonegap-version"           value="3.6.3" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
@@ -48,11 +49,10 @@
         Otherwise, you can specify specific domains:
     -->
     <access origin="*"/>
-    <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0">
-
+    <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0"/>
     <gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.9.0">
         <param name="APP_ID" value="1507812532817680" />
         <param name="APP_NAME" value="LinesOfAction"/>
     </gap:plugin>
-
+    
 </widget>
